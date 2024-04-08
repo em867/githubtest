@@ -1,0 +1,9 @@
+clear
+
+% Building ODESA APP database  
+
+for i = 1:300
+
+ODESA_APP_DATA(i).DailyTrace =struct('Wakefulness', [],'Boredom', [], 'Effort', [], 'Attention', [], 'Body', [], 'Sensoryseeking', [], 'Physicaltension', [], 'Scenarioanxiety', [], 'Rumination', [], 'Stress', [], 'Personalizeddimension', []);
+
+end 
